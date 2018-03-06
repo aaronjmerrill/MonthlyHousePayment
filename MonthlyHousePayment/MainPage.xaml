@@ -13,7 +13,7 @@
             <ColumnDefinition Width="46*"/>
             <ColumnDefinition Width="369*"/>
         </Grid.ColumnDefinitions>
-        <TextBox x:Name="txtCostOfHouse" HorizontalAlignment="Right" Margin="0,34,37,0" Text="TextBox" VerticalAlignment="Top" Height="32" Width="70" Grid.Column="1"/>
+        <TextBox x:Name="txtCostOfHouse" HorizontalAlignment="Right" Margin="0,34,37,0" Text="TextBox" VerticalAlignment="Top" Height="32" Width="70" Grid.Column="1" TextChanged="txtCostOfHouse_TextChanged"/>
         <TextBox x:Name="txtDownPayment" Margin="12,120,47,0" Text="TextBox" VerticalAlignment="Top" RenderTransformOrigin="0.497,0.534" Height="32" Grid.Column="1"/>
         <TextBox x:Name="txtEstimatedInsurance" Margin="9,192,50,0" Text="TextBox" VerticalAlignment="Top" Height="32" Grid.Column="1"/>
         <TextBox x:Name="txtEstimatedTax" Margin="0,264,48,0" Text="TextBox" VerticalAlignment="Top" Height="32" Grid.Column="1" HorizontalAlignment="Right" Width="64"/>

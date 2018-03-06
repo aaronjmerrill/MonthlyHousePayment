@@ -26,5 +26,10 @@ namespace MonthlyHousePayment
         {
             this.InitializeComponent();
         }
+
+        private void txtCostOfHouse_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
     }
 }
